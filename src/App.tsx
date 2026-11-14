@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { SmoothScroll } from './components/layout/SmoothScroll';
 import { AmbientBackground } from './components/ui/AmbientBackground';
 import { LiquidGlassIntro } from './components/intro/LiquidGlassIntro';
@@ -114,6 +115,7 @@ export const App: React.FC = () => {
             <Footer />
           </AnimatedContent>
         </div>
+        <Analytics />
       </SmoothScroll>
     </ClickSpark>
   );
