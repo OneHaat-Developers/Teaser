@@ -234,7 +234,7 @@ const prerenderedBody = `
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">Claim Your VIP Early Access Pass.</h2>
         <p class="text-slate-600 text-base max-w-xl mx-auto mb-8">
-          We are rolling out colony by colony across Bengaluru. Reserve your spot today for exclusive beta access and claim your unique username before public launch.
+          We are launching in select neighborhood clusters first. Reserve your spot now for exclusive Beta Version access and be the first to grab your unique username before anyone else.
         </p>
         <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-3">
           <input type="email" placeholder="Enter your email address" required class="flex-1 px-4 py-3 border border-slate-300 rounded-xl" />

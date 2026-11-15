@@ -230,7 +230,7 @@ function generateThankYouHtml(userName: string, email: string, userHandle: strin
                     Hello <strong style="color: #065f46;">${userName}</strong>,
                   </div>
                   <div style="font-size: 13.5px; color: #334155; line-height: 1.6; margin-top: 8px;">
-                    Thank you for reserving your priority spot. We are rolling out colony by colony across Bengaluru to empower genuine neighborhood grocers and bring fair, transparent pricing back to daily essentials.
+                    Thank you for reserving your priority spot. We are rolling out to empower genuine neighborhood grocers and bring fair, transparent pricing back to daily essentials.
                   </div>
                 </div>
 
