@@ -375,7 +375,7 @@ function generateThankYouHtml(userName: string, email: string, userHandle: strin
                           Have a preferred grocer or pharmacy in your locality?
                         </div>
                         <div style="font-size: 12px; color: #475569; line-height: 1.55; margin-top: 5px;">
-                          Reply to this email or write to <span style="display: inline-block; padding: 1px 7px; background-color: #ffffff; border: 1px solid #86efac; border-radius: 6px; color: #047857; font-weight: 700; text-decoration: none;">access.onehaat@gmail.com</span> with their shop name and colony, and our onboarding team will reach out to them.
+                          Reply to this email or write to <span style="display: inline-block; padding: 1px 7px; background-color: #ffffff; border: 1px solid #86efac; border-radius: 6px; color: #047857; font-weight: 700; text-decoration: none;">onehaatofficial@gmail.com</span> with their shop name and colony, and our onboarding team will reach out to them.
                         </div>
                       </td>
                     </tr>
@@ -419,7 +419,13 @@ function generateThankYouHtml(userName: string, email: string, userHandle: strin
                   OneHaat Technologies Pvt. Ltd. All rights reserved.
                 </div>
                 <div style="font-size: 11px; color: #a7f3d0; margin-top: 6px;">
-                  One Market. Every Need. &nbsp;|&nbsp; Contact: <a href="mailto:access.onehaat@gmail.com" style="color: #6ee7b7; text-decoration: underline; font-weight: 600;">access.onehaat@gmail.com</a>
+                  One Market. Every Need. &nbsp;|&nbsp; Contact: <a href="mailto:onehaatofficial@gmail.com" style="color: #6ee7b7; text-decoration: underline; font-weight: 600;">onehaatofficial@gmail.com</a>
+                </div>
+                <div style="font-size: 11px; margin-top: 10px;">
+                  <a href="https://www.instagram.com/onehaat.in/" style="color: #6ee7b7; text-decoration: none; margin: 0 5px; font-weight: 600;">Instagram</a> &bull;
+                  <a href="https://x.com/onehaatofficial" style="color: #6ee7b7; text-decoration: none; margin: 0 5px; font-weight: 600;">X</a> &bull;
+                  <a href="https://www.facebook.com/people/OneHaat/61596487593981/" style="color: #6ee7b7; text-decoration: none; margin: 0 5px; font-weight: 600;">Facebook</a> &bull;
+                  <a href="https://www.linkedin.com/company/onehaat/" style="color: #6ee7b7; text-decoration: none; margin: 0 5px; font-weight: 600;">LinkedIn</a>
                 </div>
               </td>
             </tr>
@@ -524,10 +530,10 @@ function reserveApiPlugin() {
               return;
             }
 
-            const gmailUser = process.env.GMAIL_USER || 'access.onehaat@gmail.com';
+            const gmailUser = process.env.GMAIL_USER || 'onehaatofficial@gmail.com';
             const gmailPass = (process.env.GMAIL_APP_PASSWORD || '').replace(/\s+/g, '');
             const fromName = process.env.EMAIL_FROM_NAME || 'OneHaat';
-            const adminEmail = process.env.CONTACT_EMAIL || process.env.VITE_CONTACT_EMAIL || 'access.onehaat@gmail.com';
+            const adminEmail = process.env.CONTACT_EMAIL || process.env.VITE_CONTACT_EMAIL || 'onehaatofficial@gmail.com';
 
             const userName = extractNameFromEmail(email);
             const userHandle = email.split('@')[0].replace(/[^a-zA-Z0-9_]/g, '').toLowerCase() || 'neighbor';

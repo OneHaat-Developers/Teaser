@@ -174,7 +174,7 @@ The reservation system operates as a zero-dependency serverless function deploye
    - Incorporates responsive glassmorphic HTML card styling, reservation tier details, and assigned vanity handle.
    - Includes official brand mark attached via Content-ID (`cid:onehaat-logo`) to guarantee immediate rendering without remote content blocks.
 2. **Operations Team Alert**:
-   - Dispatched immediately to `access.onehaat@gmail.com`.
+   - Dispatched immediately to `onehaatofficial@gmail.com`.
    - Sets `replyTo` directly to the applicant's email address for one-click communication.
 
 ---
@@ -198,9 +198,9 @@ GMAIL_USER=access.onehaat@gmail.com
 GMAIL_APP_PASSWORD=your_16_char_app_password
 EMAIL_FROM_NAME=OneHaat
 
-# Administrative Alert Destination
-CONTACT_EMAIL=access.onehaat@gmail.com
-VITE_CONTACT_EMAIL=access.onehaat@gmail.com
+# Administrative Alert Destination & Contact Email
+CONTACT_EMAIL=onehaatofficial@gmail.com
+VITE_CONTACT_EMAIL=onehaatofficial@gmail.com
 ```
 
 ### 3. Launch Local Development Server
@@ -225,7 +225,7 @@ npm run preview
    - `GMAIL_USER`: `access.onehaat@gmail.com`
    - `GMAIL_APP_PASSWORD`: Your 16-character Google App Password
    - `EMAIL_FROM_NAME`: `OneHaat`
-   - `CONTACT_EMAIL`: `access.onehaat@gmail.com`
+   - `CONTACT_EMAIL`: `onehaatofficial@gmail.com`
 4. Deploy. Vercel automatically deploys the frontend assets to the edge network and hosts `/api/reserve` as a Node.js serverless function.
 
 ---

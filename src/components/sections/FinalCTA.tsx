@@ -137,8 +137,8 @@ export const FinalCTA: React.FC = React.memo(() => {
                       </div>
                       <div className="mt-2 text-[10px] text-emerald-700/90">
                         Questions? Reach us anytime at{' '}
-                        <a href="mailto:access.onehaat@gmail.com" className="font-bold underline hover:text-emerald-900">
-                          access.onehaat@gmail.com
+                        <a href="mailto:onehaatofficial@gmail.com" className="font-bold underline hover:text-emerald-900">
+                          onehaatofficial@gmail.com
                         </a>
                       </div>
                     </div>
@@ -186,10 +186,10 @@ export const FinalCTA: React.FC = React.memo(() => {
                   </div>
                   <span>•</span>
                   <a
-                    href="mailto:access.onehaat@gmail.com"
+                    href="mailto:onehaatofficial@gmail.com"
                     className="text-emerald-700 hover:text-emerald-900 hover:underline transition-colors font-semibold"
                   >
-                    Contact: access.onehaat@gmail.com
+                    Contact: onehaatofficial@gmail.com
                   </a>
                 </div>
               </div>

@@ -134,12 +134,12 @@ export const FAQSection: React.FC = React.memo(() => {
                   <div>
                     <div className="font-bold text-xs text-ink">Still have questions?</div>
                     <div className="text-[11px] text-slate-500">
-                      Reach us at <a href="mailto:access.onehaat@gmail.com" className="font-semibold text-emerald-700 hover:underline">access.onehaat@gmail.com</a>
+                      Reach us at <a href="mailto:onehaatofficial@gmail.com" className="font-semibold text-emerald-700 hover:underline">onehaatofficial@gmail.com</a>
                     </div>
                   </div>
                 </div>
                 <WaterGlassLink
-                  href="mailto:access.onehaat@gmail.com"
+                  href="mailto:onehaatofficial@gmail.com"
                   variant="clear"
                   size="sm"
                   className="rounded-xl shrink-0"
@@ -289,10 +289,10 @@ export const FAQSection: React.FC = React.memo(() => {
           <div className="shrink-0 flex items-center justify-between p-2 rounded-xl bg-slate-50 border border-slate-200/70 text-xs">
             <span className="text-[11px] text-slate-600 font-medium">Have questions?</span>
             <a
-              href="mailto:access.onehaat@gmail.com"
+              href="mailto:onehaatofficial@gmail.com"
               className="text-[11px] font-bold text-emerald-700 hover:underline"
             >
-              access.onehaat@gmail.com →
+              onehaatofficial@gmail.com →
             </a>
           </div>
         </div>

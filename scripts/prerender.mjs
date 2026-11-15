@@ -240,7 +240,7 @@ const prerenderedBody = `
           <input type="email" placeholder="Enter your email address" required class="flex-1 px-4 py-3 border border-slate-300 rounded-xl" />
           <button type="submit" class="px-6 py-3 bg-emerald-600 text-white font-bold rounded-xl shadow-md">Reserve Access</button>
         </form>
-        <p class="text-xs text-slate-400 mt-4">Zero spam. Contact: <a href="mailto:access.onehaat@gmail.com" class="text-emerald-700 underline font-semibold">access.onehaat@gmail.com</a></p>
+        <p class="text-xs text-slate-400 mt-4">Zero spam. Contact: <a href="mailto:onehaatofficial@gmail.com" class="text-emerald-700 underline font-semibold">onehaatofficial@gmail.com</a></p>
       </div>
     </section>
 
@@ -251,7 +251,16 @@ const prerenderedBody = `
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
       <div>
         <div class="text-white font-bold text-sm mb-1">OneHaat Technologies Pvt. Ltd.</div>
-        <div>One Market. Every Need. | Contact: access.onehaat@gmail.com</div>
+        <div>One Market. Every Need. | Contact: onehaatofficial@gmail.com</div>
+        <div class="mt-2 flex items-center gap-3 text-slate-300">
+          <a href="https://www.instagram.com/onehaat.in/" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400">Instagram</a>
+          <span>•</span>
+          <a href="https://x.com/onehaatofficial" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400">X</a>
+          <span>•</span>
+          <a href="https://www.facebook.com/people/OneHaat/61596487593981/" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400">Facebook</a>
+          <span>•</span>
+          <a href="https://www.linkedin.com/company/onehaat/" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400">LinkedIn</a>
+        </div>
       </div>
       <div>© ${new Date().getFullYear()} OneHaat Technologies Pvt. Ltd. All rights reserved. FSSAI Certified.</div>
     </div>

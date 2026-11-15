@@ -3,6 +3,9 @@ import {
   Heart,
   ShieldCheck,
   Mail,
+  Instagram,
+  Facebook,
+  Linkedin,
 } from 'lucide-react';
 import { AnimatedContent } from '../ui/AnimatedContent';
 
@@ -49,6 +52,48 @@ export const Footer: React.FC = React.memo(() => {
               <ShieldCheck className="w-4 h-4 text-emerald-600" />
               <span>FSSAI Certified • Zero Synthetic Dark Stores</span>
             </div>
+
+            {/* Social Media Links */}
+            <div className="flex items-center gap-2 pt-1">
+              <a
+                href="https://www.instagram.com/onehaat.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 rounded-lg bg-slate-100 hover:bg-emerald-50 text-slate-600 hover:text-emerald-700 flex items-center justify-center transition-all border border-slate-200/60 hover:border-emerald-300 shadow-2xs"
+                aria-label="OneHaat on Instagram"
+              >
+                <Instagram className="w-4 h-4" />
+              </a>
+              <a
+                href="https://x.com/onehaatofficial"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 rounded-lg bg-slate-100 hover:bg-emerald-50 text-slate-600 hover:text-emerald-700 flex items-center justify-center transition-all border border-slate-200/60 hover:border-emerald-300 shadow-2xs"
+                aria-label="OneHaat on X"
+              >
+                <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </a>
+              <a
+                href="https://www.facebook.com/people/OneHaat/61596487593981/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 rounded-lg bg-slate-100 hover:bg-emerald-50 text-slate-600 hover:text-emerald-700 flex items-center justify-center transition-all border border-slate-200/60 hover:border-emerald-300 shadow-2xs"
+                aria-label="OneHaat on Facebook"
+              >
+                <Facebook className="w-4 h-4" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/onehaat/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 rounded-lg bg-slate-100 hover:bg-emerald-50 text-slate-600 hover:text-emerald-700 flex items-center justify-center transition-all border border-slate-200/60 hover:border-emerald-300 shadow-2xs"
+                aria-label="OneHaat on LinkedIn"
+              >
+                <Linkedin className="w-4 h-4" />
+              </a>
+            </div>
           </div>
 
           {/* 3 Link Columns Group (7 cols on lg, 3 columns on tablet/desktop) */}
@@ -88,7 +133,7 @@ export const Footer: React.FC = React.memo(() => {
                 <li><a href="#faq" className="hover:text-emerald-700 transition-colors">Price Parity Guarantee</a></li>
                 <li><a href="#faq" className="hover:text-emerald-700 transition-colors">Privacy & Data Security</a></li>
                 <li><a href="#faq" className="hover:text-emerald-700 transition-colors">Merchant Code of Ethics</a></li>
-                <li><a href="mailto:access.onehaat@gmail.com" className="hover:text-emerald-700 transition-colors font-medium text-emerald-800">Support: access.onehaat@gmail.com</a></li>
+                <li><a href="mailto:onehaatofficial@gmail.com" className="hover:text-emerald-700 transition-colors font-medium text-emerald-800">Support: onehaatofficial@gmail.com</a></li>
               </ul>
             </div>
           </div>
